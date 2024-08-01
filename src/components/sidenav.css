@@ -8,7 +8,6 @@
     height: 1080px;
     padding: 40px 46px 0 30px;
     gap: 60px;
-    opacity: 1;
 }
 
 .itemone {
@@ -49,7 +48,6 @@
     width: 184px;
     height: 512px;
     gap: 10px;
-    opacity: 0px;
 }
 
 .itemthreebuttonmain {
