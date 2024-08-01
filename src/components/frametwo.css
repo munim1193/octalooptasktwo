@@ -1,0 +1,261 @@
+/* Desktop Styles */
+.frametwo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.ftwo1 {
+    width: 65%;
+    height: 100%;
+    padding: 18px;
+    gap: 10px;
+    border-radius: 14px;
+    opacity: 0px;
+    background: #FFFFFF57;
+}
+
+.ftwo11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 34px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.ftwo111 {
+    width: 123px;
+    height: 18px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.24px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.ftwo112 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 364px;
+    height: 34px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.ftwo12 {
+    width: 100%;
+    height: 244px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+}
+
+th,
+td {
+    padding: 7px;
+    text-align: left;
+    border: none;
+    background: none;
+}
+
+th {
+    font-weight: bold;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    border-bottom: 2px solid gray;
+}
+
+td {
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+tr {
+    background-color: transparent;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+tr:hover {
+    background-color: transparent;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 110%;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.progressimg {
+    width: 28px;
+    height: 28px;
+}
+
+.ftwo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 14px;
+    background: #FFFFFF57;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.ftwo21 {
+    display: flex;
+    flex-direction: row;
+    width: 364px;
+    height: 34px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.ftwo22{
+    display: flex;
+    align-items: center;
+}
+
+.ftwo23 {
+    display: flex;
+    flex-direction: row;
+    width: 364px;
+    height: 47px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+
+.ftwo231 {
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    height: 47px;
+    gap: 6px;
+    opacity: 0px;
+}
+
+.ftwo2311 {
+    width: 26px;
+    height: 25px;
+    gap: 0px;
+    border: 0.5px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.08px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.ftwo2312 {
+    width: 85px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Aeonik Pro TRIAL;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.96px;
+    text-align: left;
+}
+
+/* Responsive Styles for Tablet and Mobile */
+@media (max-width: 768px) {
+    .frametwo {
+        flex-direction: column;
+        overflow-x: auto;
+    }
+
+    .ftwo1,
+    .ftwo2 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .ftwo12 {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .ftwo21,
+    .ftwo23 {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .progress {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .ftwo11,
+    .ftwo112 {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .ftwo111 {
+        font-size: 14px;
+    }
+
+    .ftwo2311 {
+        font-size: 18px;
+    }
+
+    .ftwo2312 {
+        font-size: 12px;
+    }
+
+    .progress {
+        width: 100%;
+        height: auto;
+    }
+}
